@@ -1,0 +1,16 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.0.3",
+  "ExtendedData": {
+    "inputs": [
+      "https://api.payamak-panel.com/post/send.asmx"
+    ],
+    "namespaceMappings": [
+      "*, Tooska.SMS.Services.MeliPayaak"
+    ],
+    "outputFile": "MeliPayamakSendService.cs",
+    "serializerMode": "XmlSerializer",
+    "targetFramework": "net7.0",
+    "typeReuseMode": "All"
+  }
+}
